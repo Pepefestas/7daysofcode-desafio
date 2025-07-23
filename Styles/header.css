@@ -1,0 +1,28 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    padding: 2em 1em;
+}
+
+.cabecalho__img {
+    clip-path: circle(45%);
+    width: 4em;
+}
+
+.cabecalho__textos {
+    padding-left: 0.7em;
+}
+
+.cabecalho__texto1 {
+    color: var(--cor-principal);
+    font-weight: 700;
+    font-size: 22px;
+    padding-bottom: 0.3em;
+}
+
+.cabecalho__texto2 {
+    color: var(--cor-cinza);
+    font-weight: 400;
+}

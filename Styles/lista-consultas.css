@@ -1,0 +1,115 @@
+.lista__titulo {
+    font-size: 16px;
+    padding-left: 1em;
+}
+
+.contatos__hoje {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 1em;
+    gap: 1em;
+}
+
+.conteudo__contato {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: var(--cor-branco);
+    border-radius: 8px;
+}
+
+.parte-superior {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 1em 0.5em;
+}
+
+.contato__foto {
+    width: 2.3em;
+}
+
+.parte-superior__texto {
+    margin-right: 6em;
+}
+
+.contato__nome {
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    padding-bottom: 0.5em;
+}
+
+.contato__consulta {
+    color: var(--cor-cinza);
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 0.8em;
+}
+
+.iconedecamera {
+    width: 1.1em;
+    object-fit: contain;
+}
+
+.contato__pessoa {
+    display: flex;
+    align-items: center;
+}
+
+.iconedechat {
+    margin-top: -0.5em;
+}
+
+.hr {
+    width: 100%;
+    border: 1px solid var(--cor-cinza-claro);
+}
+
+.parte-inferior {
+    width: 100%;
+    margin: 0.5em 1em 1em;
+}
+
+.horario {
+    width: 100%;
+    color: var(--cor-principal);
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 1em;
+}
+
+.contato__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contato__botao_laranja {
+    background-color: var(--cor-laranja);
+    color: var(--cor-branco);
+    padding: 1.3em 1.25em;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contato__botao_branco {
+    border: 1px solid var(--cor-cinza-claro);
+    padding: 1.3em 1.25em;
+    text-decoration: none;
+    color: var(--cor-principal);
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.contato__botao_azul {
+    background-color: var(--cor-azul);
+    color: var(--cor-branco);
+    padding: 1.3em 0;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
